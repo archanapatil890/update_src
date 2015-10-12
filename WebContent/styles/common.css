@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+body {
+	font-family: serif;
+ 	font-size: 16px;
+ 	position: absolute;
+ 	top: 0%;
+ 	bottom: 10%;
+ 	left: 10%;
+ 	right: 10%;
+ 	background-color: #FFFFFF;
+}
+.header {
+	/*background: url("/Update/images/logo.png") top left no-repeat, radial-gradient(circle, #FFE5B4, #C19A6B);*/
+  	
+}
+.footer {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	bottom: 0%;
+	min-height:60px;
+	background: radial-gradient(circle, #FFE5B4, #C19A6B);
+}
+.content {
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+input {
+	border:2px solid #C19A6B;
+	border-radius:10px;
+	height: 25px;
+	width: 230px;
+	padding: 20px;
+}

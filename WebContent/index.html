@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update</title>
+<script type="text/javascript" src="jsscripts/common/angular.js"></script>
+<script type="text/javascript" src="jsscripts/common/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="jsscripts/common/jquery.min.js"></script>
+<script type="text/javascript" src="jsscripts/controller/app.js"></script>
+<script type="text/javascript" src="jsscripts/constants/loginConstants.js"></script>
+<script type="text/javascript" src="jsscripts/controller/loginController.js"></script>
+
+<link rel="stylesheet" type="text/css" href="styles/common.css"/>
+<link rel="stylesheet" type="text/css" href="styles/login.css"/>
+
+</head>
+<body id="login" ng-app="LoginModule">
+
+<div class=header>
+	<div>
+		UPDATES . . .
+	</div>
+	<div class="sub_menu">
+		<span class="sub_menu_span">
+			<a href="#" ui-sref="login"> Login</a>
+		</span>
+		<span class="sub_menu_span">
+			<a href="#" ui-sref="new_user">Are you new User?</a>
+		</span>
+		<span class="sub_menu_span">
+			<a href="#" ui-sref="about_us"> About Us</a>
+		</span>
+	</div>
+</div>
+
+<div class="content">
+	<div ui-view=""></div>
+</div>
+
+</body>
+</html>

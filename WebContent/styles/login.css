@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+body {
+	text-align: center;
+}
+.header {
+  	min-height: 20%;
+	text-align: center;
+  	font-family: cursive;
+  	font-size: 35px;
+  	color: #7E3517;
+  	min-width: 60%;
+}
+.sub_menu {
+	text-align: center;
+	font-size: 25px;
+  	color: #C24641;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+}
+.sub_menu_span {
+	padding-left: 20px;
+}
+.content {
+	overflow: auto;
+	min-width: 60%;
+	text-align: center;
+	min-height: 70%;
+}
+.login {
+	background: radial-gradient(circle, #FFE5B4, #C19A6B);
+	padding: 2%;
+  	height: 100%;
+  	min-width: 60%;
+  	border-radius:20px;
+  	border:3px solid #7E3517;
+}
+input {
+	height: 35px;
+	width: 400px;
+	text-align: center;
+	font-size: 25px;
+	border:3px solid #7E3517;
+	border-radius:20px;
+	box-shadow: 8px 8px 5px #7E3517;
+	color: #C19A6B;
+}
+.loginButton {
+	border-radius:160px;
+	width: 160px;
+	height: 160px;
+	background-color: #C19A6B;
+	background-image: url("/Update/images/user_login.png"),radial-gradient(circle, #FFE5B4, #C19A6B);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border:3px solid #7E3517;
+	box-shadow: 10px 10px 5px #7E3517;
+	cursor: pointer;
+}
+.sendMailButton {
+	border-radius:160px;
+	width: 160px;
+	height: 160px;
+	background-color: #C19A6B;
+	background-image: url("/Update/images/send_mail.png"),radial-gradient(circle, #FFE5B4, #C19A6B);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border:3px solid #7E3517;
+	box-shadow: 10px 10px 5px #7E3517;
+	cursor: pointer;
+}
+.addUserButton {
+	border-radius:160px;
+	width: 160px;
+	height: 160px;
+	background-color: #C19A6B;
+	background-image: url("/Update/images/add_user.png"),radial-gradient(circle, #FFE5B4, #C19A6B);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border:3px solid #7E3517;
+	box-shadow: 10px 10px 5px #7E3517;
+	cursor: pointer;
+}
+.loginButton:HOVER {
+	border:5px solid #7E3517;
+}
+.sendMailButton:HOVER {
+	border:5px solid #7E3517;
+}
+.addUserButton:HOVER {
+	border:5px solid #7E3517;
+}
+.row {
+	padding: 10px;
+}
+.forget_password {
+	color: #7E3517;
+	font-size: 20px;
+	font-family: cursive;
+}
+.about_us {
+	color: #7E3517;
+	font-size: 20px;
+	font-family: cursive;
+}
+.add_new_user {
+	color: #7E3517;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 10px;
+}
+.smallbox {
+	height: 20px;
+	font-size: 20px;
+}

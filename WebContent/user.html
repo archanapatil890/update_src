@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+<script type="text/javascript" src="jsscripts/common/angular.js"></script>
+<script type="text/javascript" src="jsscripts/common/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="jsscripts/common/jquery.min.js"></script>
+<script type="text/javascript" src="jsscripts/controller/userOperation/user.js"></script>
+<script type="text/javascript" src="jsscripts/controller/userOperation/userController.js"></script>
+
+<link rel="stylesheet" type="text/css" href="styles/common.css"/>
+<link rel="stylesheet" type="text/css" href="styles/user.css"/>
+</head>
+<body id="user" ng-app="UserModule">
+
+<div class=header ng-controller="userHeaderController">
+	<div>
+		Welcome {{ name }}
+	</div>
+	<div class="sub_menu">
+		<span class="sub_menu_span">
+			<a href="#" ui-sref="dashboard"> Notifications</a>
+		</span>
+		<span class="sub_menu_span">
+			<a href="#" ui-sref="entry">Entry</a>
+		</span>
+		<span class="sub_menu_span">
+			<a href="#" ui-sref="setting"> Settings</a>
+		</span>
+	</div>
+</div>
+
+<div class="content">
+	<div ui-view=""></div>
+</div>
+
+</body>
+</html>
