@@ -1,0 +1,19 @@
+Create a new repository
+
+echo "# update_src" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/archanapatil890/update_src.git
+git push -u origin master
+
+==============================================================
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/archanapatil890/update_src.git
+git push -u origin master
+
+===================================================================
+
+
