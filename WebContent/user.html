@@ -6,8 +6,13 @@
 <script type="text/javascript" src="jsscripts/common/angular.js"></script>
 <script type="text/javascript" src="jsscripts/common/angular-ui-router.min.js"></script>
 <script type="text/javascript" src="jsscripts/common/jquery.min.js"></script>
+<script type="text/javascript">
+var app = angular.module("UserModule", ["ui.router"]);
+</script>
 <script type="text/javascript" src="jsscripts/controller/userOperation/user.js"></script>
 <script type="text/javascript" src="jsscripts/controller/userOperation/userController.js"></script>
+<script type="text/javascript" src="jsscripts/directive/user/membertags.js"></script>
+
 
 <link rel="stylesheet" type="text/css" href="styles/common.css"/>
 <link rel="stylesheet" type="text/css" href="styles/user.css"/>
@@ -23,7 +28,10 @@
 			<a href="#" ui-sref="dashboard"> Notifications</a>
 		</span>
 		<span class="sub_menu_span">
-			<a href="#" ui-sref="entry">Entry</a>
+			<a href="#" ui-sref="entryList">Entry</a>
+		</span>
+		<span class="sub_menu_span">
+			<a href="#" ui-sref="reports"> Reports</a>
 		</span>
 		<span class="sub_menu_span">
 			<a href="#" ui-sref="setting"> Settings</a>

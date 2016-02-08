@@ -33,16 +33,18 @@ body {
   	min-width: 60%;
   	border-radius:20px;
   	border:3px solid #7E3517;
+  	text-align: center;
 }
 input {
-	height: 35px;
-	width: 400px;
+	height: 25px;
 	text-align: center;
-	font-size: 25px;
-	border:3px solid #7E3517;
+	font-size: 15px;
+	border:1px solid #7E3517;
 	border-radius:20px;
-	box-shadow: 8px 8px 5px #7E3517;
+	box-shadow: 5px 5px 2px #7E3517;
 	color: #C19A6B;
+	border-radius:8px;
+	padding: 15px;
 }
 .loginButton {
 	border-radius:160px;
@@ -92,23 +94,32 @@ input {
 .row {
 	padding: 10px;
 }
-.forget_password {
+.setting_row {
 	color: #7E3517;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: cursive;
+	padding: 10px;
 }
 .about_us {
 	color: #7E3517;
 	font-size: 20px;
 	font-family: cursive;
 }
-.add_new_user {
+.column_title {
 	color: #7E3517;
 	font-size: 20px;
 	font-family: cursive;
 	padding: 10px;
 }
 .smallbox {
-	height: 20px;
-	font-size: 20px;
+	height: 15px;
+	font-size: 15px;
+	width: 70%
+}
+.imageDiv{
+	text-align: center;
+}
+.imageCss {
+	width: 70%;
+	hight:60px;
 }

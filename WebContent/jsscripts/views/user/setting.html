@@ -1,3 +1,9 @@
 <div class="user">
-setting
+<table width=100%>
+	<tr ng-repeat="(setting, description) in settingMap" width=100%>
+		<td width=100% align="center" class="setting_row" width=100%>
+			<a href="#" ui-sref="{{setting}}">{{description}}</a>
+		</td>
+	</tr>
+</table>
 </div>

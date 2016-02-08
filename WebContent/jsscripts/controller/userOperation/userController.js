@@ -1,8 +1,6 @@
 (function () {
     "use strict";
 
-    var app = angular.module("UserModule");
-
     /**
      * @ngdoc controller
      * @name UserModule.controller
@@ -27,7 +25,16 @@
     
     app.controller("reportController", ['$scope', function($scope) {}]);
     
-    app.controller("settingController", ['$scope', function($scope) {}]);
+    app.controller("entryListController", ['$scope', function($scope) {}]);
+    
+    app.controller("settingController", ['$scope', function($scope) {
+    	$scope.settingMap = {
+    			'myInfo' : 'My Information',
+    			'members' : 'My Connections',
+    			'entrySetting' : 'Design Your Entry',
+    			'importReports' : 'Import Your Reports'
+    	};
+    }]);
     
     app.controller("entrySetting", ['$scope', function($scope) {}]);
     

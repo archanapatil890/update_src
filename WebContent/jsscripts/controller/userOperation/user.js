@@ -8,7 +8,6 @@
      * Top level module for this application - User
      *
     */
-    var app = angular.module("UserModule", ["ui.router"]);
 
     /*@ngInject*/
     app.config(function ($stateProvider, $urlRouterProvider) {
@@ -30,7 +29,7 @@
             })
             .state("myInfo", {
                 url: "/my_info",
-                templateUrl: "jsscripts/views/user/user.html",
+                templateUrl: "jsscripts/views/user/member.html",
                 controller: "userController",
                 controllerAs: "user"
             })
@@ -68,6 +67,12 @@
                 url: "/entry_setting",
                 templateUrl: "jsscripts/views/user/entrySetting.html",
                 controller: "memberController",
+                controllerAs: "user"
+            })
+            .state("entryList", {
+                url: "/list_entry",
+                templateUrl: "jsscripts/views/user/entryList.html",
+                controller: "entryListController",
                 controllerAs: "user"
             })
             .state("importReports", {
